@@ -5,7 +5,7 @@ import { Product } from './product';
 
 const mockProvider = new Pact({
   consumer: 'consumer-in-js',
-  provider: process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'pactflow-example-provider',
+  provider: process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'provider-in-dotnet',
 });
 
 describe('API Pact test', () => {
